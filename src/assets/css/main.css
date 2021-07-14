@@ -1,0 +1,46 @@
+main {
+    width: 100%;
+    border: 1px solid #444;
+    display: flex;
+  }
+
+  section {
+    width: 70%;
+    height: 350px;
+    margin-left: 15%;
+    margin-right: 15%;
+    border: 1px solid #F44;
+  }
+
+  section.volante {
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url('../img/volante-logitech-g29.jpg');
+    background-color: white;
+    display:flex;
+    justify-content: flex-end;
+  }
+
+  .formulario {
+    width: 40%;
+    height: 450px;
+    border: 1px solid #44F;
+    background-color: white;
+    position: relative;
+    margin-top: -50px;
+    z-index: 10;
+  }
+
+  .formulario p {
+    margin: 2px;
+    padding: 2px;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+  }
+
+  .formulario input {
+    width: 70%;
+    height: 30px;
+  }
