@@ -1,6 +1,6 @@
 main {
     width: 100%;
-    border: 1px solid #444;
+    border: 0px solid #444;
     display: flex;
   }
 
@@ -9,7 +9,7 @@ main {
     height: 350px;
     margin-left: 15%;
     margin-right: 15%;
-    border: 1px solid #F44;
+    border: 0px solid #F44;
   }
 
   section.volante {
@@ -24,10 +24,10 @@ main {
   .formulario {
     width: 40%;
     height: 450px;
-    border: 1px solid #44F;
+    border: 0px solid #44F;
     background-color: white;
     position: relative;
-    margin-top: -50px;
+    margin-top: -25px;
     z-index: 10;
   }
 
@@ -43,4 +43,17 @@ main {
   .formulario input {
     width: 70%;
     height: 30px;
+  }
+
+  .formulario button {
+    width: 50%;
+    height: 30px;
+    margin-top: 10px;
+    background-color: #CC3300;
+    color: white;
+  }
+
+  .formulario .obs {
+    font-size: 11px;
+    margin-top: 50px;
   }

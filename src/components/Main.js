@@ -7,11 +7,16 @@ export default function Main() {
         <main>
             <section className="volante">
                 <div className="formulario">
-                    <p><h1>GANHE 10% OFF</h1></p>
-                    <p><strong>NA COMPRA DESTE SUPER VOLANTE</strong></p>
-                    <p>PARCELE EM ATÉ 12X</p>
-                    <p style={{ 'margin-top': '50px' }}>Cadastre seu email e garanta o desconto</p>
+                    <p style={{ 'margin-top': '30px' }}><h1>GANHE 10% OFF*</h1></p>
+                    <p style={{ 'margin-top': '-40px' }}><h3>NESTE SUPER LANÇAMENTO</h3></p>
+                    <p style={{ 'margin-top': '10px' }}>VOLANTE LOGITECH DRIVING FORCE G29</p>
+                    <p>PARCELE EM ATÉ 12X NO CARTÃO DE CRÉDITO</p>
+
+                    <p style={{ 'margin-top': '20px' }}>Cadastre seu email e garanta o desconto</p>
                     <input type="text" placeholder="email" />
+                    <button>CADASTRAR</button>
+
+                    <p className="obs">* Desconto de 10% na primeira compra.</p>
                 </div>
             </section>
         </main >
