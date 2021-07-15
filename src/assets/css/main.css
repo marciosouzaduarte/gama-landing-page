@@ -57,3 +57,10 @@ main {
     font-size: 11px;
     margin-top: 50px;
   }
+
+  .alert-email {
+    position: absolute;
+    margin-top: -100px;
+    margin-left: -20px;
+    width: 100%;
+  }
