@@ -31,7 +31,7 @@ export default function Main() {
             setInfoMessage('visible');
         } else {
             let emailsValidosLS = localStorage.getItem('emailsvalidos');
-            emailsValidos = JSON.parse(emailsValidosLS);
+            emailsValidos = emailsValidosLS != null ? JSON.parse(emailsValidosLS) : [];
             emailsValidos.push(email);
             localStorage.setItem('emailsvalidos', JSON.stringify(emailsValidos));
             setSuccessMessage('visible');
