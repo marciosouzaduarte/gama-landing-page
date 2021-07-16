@@ -64,3 +64,11 @@ main {
     margin-left: -20px;
     width: 100%;
   }
+
+  @media (max-width: 850px)  {
+    .formulario {
+      width: 100%;
+      margin-top: 220px;
+      margin-bottom: 100px;
+    }
+  }
