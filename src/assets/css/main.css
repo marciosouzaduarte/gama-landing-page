@@ -6,7 +6,7 @@ main {
 
   section {
     width: 70%;
-    height: 350px;
+    height: 65vh;
     margin-left: 15%;
     margin-right: 15%;
     border: 0px solid #F44;
@@ -22,12 +22,13 @@ main {
   }
 
   .formulario {
-    width: 40%;
-    height: 450px;
+    width: 45%;
+    height: 75vh;
     border: 0px solid #44F;
+    border-radius: 5px;
     background-color: white;
     position: relative;
-    margin-top: -25px;
+    margin-top: -30px;
     z-index: 10;
   }
 

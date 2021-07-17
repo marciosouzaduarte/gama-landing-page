@@ -1,16 +1,8 @@
-import React, { Component, useState } from 'react';
+import React, { useState } from 'react';
 import { Alert } from '@material-ui/lab';
 import '../assets/css/main.css';
 
 export default function Main() {
-    var enumKeys = [
-        'Enter',
-        'Backspace',
-        'ArrowLeft',
-        'ArrowRight',
-        'ArrowDown',
-        'ArrowUp'
-    ]
     var emailsValidos = [];
     const [email, setEmail] = useState('');
     const [infoMessage, setInfoMessage] = useState('hidden');
@@ -24,7 +16,7 @@ export default function Main() {
 
     function handleEmailValid() {
         let re = /\S+@\S+\.\S+/;
-        if (email == "ver emails") {
+        if (email === "ver emails") {
             let emailsValidos = localStorage.getItem('emailsvalidos');
             alert(emailsValidos);
         } else if (!re.test(email)) {
